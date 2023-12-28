@@ -19,7 +19,7 @@ const ParseFile = require("./beatmap-parser/parser").ParseFile;
 const Parse = require("./beatmap-parser/parser").Parse;
 
 console.log("Opening the beatmap!");
-let map = ParseFile(beatmapPath);
+let map = ParseFile("beatmapPath.osu");
 // or Parse(string) if you want to parse the map from raw string
 
 console.log(`Map opened; ${map.title} - ${map.artist}(${map.creator}) [${map.version}] - Designed for GameMode ${map.mode}`);
