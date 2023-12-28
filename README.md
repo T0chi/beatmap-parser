@@ -8,7 +8,7 @@
 
 ### Installation
 
-osuParser requires [node.js](https://nodejs.org/) v4+ to run.
+beatmap-parser requires [node.js](https://nodejs.org/) v4+ to run.
 
 ### Usage
 
