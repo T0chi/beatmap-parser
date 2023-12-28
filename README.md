@@ -1,5 +1,10 @@
-# osuParser
-Syncronous osu! beatmap file parser written in JavaScript.
+# beatmap-parser
+[Syncronous osu! beatmap file parser written in JavaScript by r0neko](https://github.com/r0neko/osuParser) and upgraded by -Tochi.
+
+### Upgrades
+- Added bookmarks
+- Added sliders + respective calculations
+- Added JSON Object with beatmap data including hitobjects (check `preprocessHitObjects()` in `../Utils/Beatmap.js#L95-L234`)
 
 ### Installation
 
