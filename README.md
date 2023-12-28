@@ -6,6 +6,8 @@
 - Added sliders + respective calculations
 - Added JSON Object with beatmap data including hitobjects (check [preprocessHitObjects()](https://github.com/T0chi/beatmap-parser/blob/master/Utils/Beatmap.js#L95-L234))
 
+Check `hitobjects(example).json` to see an example output of `preprocessHitObjects()` written to a json file.
+
 ### Installation
 
 beatmap-parser requires [node.js](https://nodejs.org/) v4+ to run.
