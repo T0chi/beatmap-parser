@@ -10,11 +10,6 @@
 
 osuParser requires [node.js](https://nodejs.org/) v4+ to run.
 
-Install this package through npm(NodeJS Package Manager).
-
-```sh
-$ npm install @r0neko/osuparser
-```
 ### Usage
 
 Example code:
