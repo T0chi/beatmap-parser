@@ -15,11 +15,12 @@ osuParser requires [node.js](https://nodejs.org/) v4+ to run.
 Example code:
 
 ```js
-const osuParser = require("@r0neko/osuparser");
+const ParseFile = require("./beatmap-parser/parser").ParseFile;
+const Parse = require("./beatmap-parser/parser").Parse;
 
 console.log("Opening the beatmap!");
-let map = osuParser.ParseFile("./TestMap.osu");
-// or osuParser.Parse(string) if you want to parse the map from raw string
+let map = ParseFile(beatmapPath);
+// or Parse(string) if you want to parse the map from raw string
 
 console.log(`Map opened; ${map.title} - ${map.artist}(${map.creator}) [${map.version}] - Designed for GameMode ${map.mode}`);
 console.log(`Audio file: ${map.audio}`);
