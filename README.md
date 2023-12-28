@@ -4,7 +4,7 @@
 ### Upgrades
 - Added bookmarks
 - Added sliders + respective calculations
-- Added JSON Object with beatmap data including hitobjects (check `preprocessHitObjects()` in `../Utils/Beatmap.js#L95-L234`)
+- Added JSON Object with beatmap data including hitobjects (check [preprocessHitObjects()](https://github.com/T0chi/beatmap-parser/blob/master/Utils/Beatmap.js#L95-L234))
 
 ### Installation
 
